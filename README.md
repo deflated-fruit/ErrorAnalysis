@@ -4,8 +4,10 @@ Takes in a mathematical expression as a string and variables with values and err
 TO USE:
 
 Pass in to the funcion `get_error()` the following:
-`expr`: This is a mathematical expression as a string. You MUST be explicit with multiplication symbols. Functions (like sin or ln) are not currently supported, nor is raising something to a variable)
-`errors`: Pass the value and error for each variable in the expression
+
+1. `expr`: This is a mathematical expression as a string. You MUST be explicit with multiplication symbols. Functions (like sin or ln) are not currently supported, nor is raising something to a variable)
+
+2. `errors`: Pass the value and error for each variable in the expression
 
 eg.
 
